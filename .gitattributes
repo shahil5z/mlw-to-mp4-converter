@@ -1,0 +1,3 @@
+# Make GitHub Linguist classify the source files correctly.
+*.py linguist-language=Python linguist-detectable=true
+*.bat linguist-language=Batchfile
