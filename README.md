@@ -64,10 +64,6 @@ Choose an output folder:
 py -3 mlw_to_mp4.py "C:\Wallpapers\wallpaper.mlw" -o "C:\Converted"
 ```
 
-## Credits and license
+## License
 
-Created and maintained by **Shahil** as a Windows MLW-to-MP4 utility.
-
-The MLW video decryption approach is adapted from the MIT-licensed [Wallnetic](https://github.com/fatihkan/wallnetic) project. The required attribution is in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-This project is released under the [MIT License](LICENSE), subject to the third-party notice above. It is an independent project and is not affiliated with MyLiveWallpapers.
+Created by **Shahil**. A Windows utility licensed under the [MIT License](LICENSE).
