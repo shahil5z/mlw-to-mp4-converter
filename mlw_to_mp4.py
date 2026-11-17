@@ -21,7 +21,7 @@ except ImportError:
     AESGCM = None
 
 
-# MLW.VIDEO AES-128-GCM key, documented in Wallnetic's open-source MLWDecryptor.
+# AES-128-GCM key used by the supported MLW.VIDEO container format.
 VIDEO_KEY = bytes.fromhex("d27e154628ae2ba6ab4b9775165ff737")
 MAGIC_VIDEO = b"MLW.VIDEO"
 META_BLOCK_ID = 0x01010101
@@ -74,7 +74,7 @@ def decrypt_mlw_bytes(data: bytes) -> bytes:
 
     pos = null_at + 1
 
-    # Version (big-endian). Wallnetic currently accepts versions 0 and 1.
+    # Version (big-endian). This converter supports MLW.VIDEO versions 0 and 1.
     version = u32be(data, pos)
     pos += 4
     if version > 1:
