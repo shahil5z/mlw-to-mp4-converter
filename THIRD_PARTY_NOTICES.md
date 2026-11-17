@@ -1,23 +1,8 @@
 # Third-party notices
 
-The project is authored and maintained by **Shahil**. The following notice applies only to the adapted MLW container parsing/decryption approach described below. It does not imply that the Windows application or this repository was created by the upstream author.
+This Windows utility is created and maintained by **Shahil**.
 
-This project includes a Python port/adaptation of the MLW video container parsing
-and decryption approach from:
-
-  Wallnetic
-  Repository: https://github.com/fatihkan/wallnetic
-  Source: src/Wallnetic/Services/MLWDecryptor.swift
-  Author: Fatih Kan
-  License: MIT
-
-The upstream implementation documents the video key as originating from
-MLWapp v0.1.3. The Python implementation in this repository is independently
-written and adapted from the publicly available algorithm and format details.
-
-## Upstream MIT notice
-
-The MIT notice below applies to the upstream-derived portions:
+The MLW video decryption implementation includes an adaptation of work by Fatih Kan, distributed under the MIT License. The copyright and permission notice below is retained as required by that license.
 
 MIT License
 
